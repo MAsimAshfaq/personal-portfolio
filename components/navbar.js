@@ -66,9 +66,9 @@ const Navbar = (props) => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="https://craftzfox-biolinks.netlify.app/">
+          {/* <LinkItem href="https://craftzfox-biolinks.netlify.app/">
             Bio-Links
-          </LinkItem>
+          </LinkItem> */}
           {/*<LinkItem href="https://github.com/abdullah048/personal-portfolio">
             View Source
           </LinkItem>*/}
@@ -90,13 +90,13 @@ const Navbar = (props) => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink
+                {/* <NextLink
                   href={`https://craftzfox-biolinks.netlify.app/`}
                   passHref>
                   <MenuItem as={Link}>Bio-Links</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <NextLink
-                  href={`https://github.com/abdullah048/personal-portfolio`}
+                  href={`https://github.com/MAsimAshfaq/personal-portfolio`}
                   passHref>
                   <MenuItem as={Link}>View Source</MenuItem>
                 </NextLink>
